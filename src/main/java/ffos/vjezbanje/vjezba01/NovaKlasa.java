@@ -10,7 +10,7 @@ package ffos.vjezbanje.vjezba01;
  */
 public class NovaKlasa {
     public static void main(String[] args) {
-        System.out.println("Pozdrav!");
+        System.out.println("Odjebi!");
     }
  
 }

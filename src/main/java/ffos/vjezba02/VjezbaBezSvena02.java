@@ -56,5 +56,54 @@ public class VjezbaBezSvena02 {
       }
         
         
+      /*
+      Ispisati Hello world 100 puta u istom retku odvojeno zarezom
+      */
+        for (int i = 0; i < 100; i++) {
+      
+         if(i<99){
+             System.out.print("Hello World, ");
+            
+         }else{
+             System.out.print("Hello World");
+         }
+        }
+            
+        /*
+         Ispisati sve parne brojeve od 3 do 99
+         */  
+        System.out.println("");
+            for (int i = 3; i > 2 && i < 99; i++) {
+                
+                if (i%2==0){
+                    
+                    System.out.println(i);
+                }
+                
+            }
+            
+            
+            /*
+            Zbrojiti prvih 67 brojeva i ispisati zbroj
+            */
+           int zbroj= 0; 
+           for (int i = 0; i < 68; i++) {
+               
+               zbroj += i;
+                
+            
+        }
+          System.out.println(zbroj); 
+            
+            
+            
+        }
+
+               
+            
+            
+        
+      
+        
     }
-}
+

@@ -54,5 +54,16 @@ public class Osoba {
     public void setSpol(char spol) {
         this.spol = spol;
     }
+
+    public Osoba(String ime, String prezime, String oib, int dob, char spol) {
+        this.ime = ime;
+        this.prezime = prezime;
+        this.oib = oib;
+        this.dob = dob;
+        this.spol = spol;
+    }
+    
+    
+    
     
 }

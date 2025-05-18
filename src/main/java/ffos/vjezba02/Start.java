@@ -10,7 +10,7 @@ package ffos.vjezba02;
  */
 public class Start {
     public static void main(String[] args) {
-        Osoba o1 = new Osoba();
+       /* Osoba o1 = new Osoba();
         o1.setIme("Tamara");
         o1.setPrezime("Orihovac");
         o1.setDob(26);
@@ -26,7 +26,16 @@ public class Start {
         o2.setOib("nema jer je jos fetus");
         o2.setSpol('M');
     
-        System.out.println(o2.getIme() + " " + o2.getPrezime() + ", dob: " + o2.getDob() + ", spol: " + o2.getSpol() + ", OIB:" + o2.getOib() );
+        System.out.println(o2.getIme() + " " + o2.getPrezime() + ", dob: " + o2.getDob() + ", spol: " + o2.getSpol() + ", OIB:" + o2.getOib() ); */
     
+        
+        Osoba o = new Osoba("Sven", "Krofna", "2142471451726", 23, 'M');
+        System.out.println(o.getIme() + " " + o.getPrezime() + " " + o.getOib() + " " + o.getDob() + " " + o.getSpol());
+        
+        
+        
+        
     }
+    
+    
 }
